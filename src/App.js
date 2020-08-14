@@ -7,6 +7,7 @@ function App() {
     <div className="App">      
       <div className="center"></div>
       <h1 className="center blue">hcomsodmads</h1>
+      
 
     </div>
   );

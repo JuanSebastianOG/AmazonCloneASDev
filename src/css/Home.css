@@ -1,0 +1,20 @@
+.home{
+  margin-right: auto;
+  margin-left: auto;
+}
+.home__banner{
+    width: 100%;
+    mask-image: linear-gradient(to top, transparent 1%, black 75%);
+    
+  }
+  .home__products{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.08773931936055668) 4%, rgba(251,251,255,1) 100%);
+    margin-left: 25px;
+    margin-right: 25px;
+  }

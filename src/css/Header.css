@@ -3,6 +3,9 @@
     background-color: #232f3e;
     display: flex;
     align-items:center;
+    position:sticky;
+    top: 0;
+    z-index: 100;
 }
 .header__option {
     display: flex;
@@ -31,7 +34,7 @@
     object-fit: contain;
     margin-top:5x;
     margin-right: 20px;
-    padding-left: 20px;
+    padding-left: 25px;
 }
 .header_search{
     display: flex;   
@@ -48,4 +51,22 @@
     padding:10px;
     border: none;
     width: 100%;
+}
+
+
+.header__optionBasket{
+    justify-content: space-evenly;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.cant_Shopping{
+    text-decoration: none;
+    margin-left:5px ;
+    margin-right: 25px;
+}
+
+.header__checkout{
+    text-decoration: none;
 }

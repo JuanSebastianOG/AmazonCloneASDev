@@ -1,8 +1,9 @@
 
 import React from 'react';
-import './css/Header.css';
+import '../css/Header.css';
 import { Link } from 'react-router-dom';
 import SearchIcon from '@material-ui/icons/Search';
+import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 
 function Header() {
     return (
@@ -33,7 +34,7 @@ function Header() {
                 {/*2nd link*/}
                 <Link to="/" className="header__link">
                     <div className="header__option">
-                        <span  className="header__optionLineOne" >Return</span>
+                        <span className="header__optionLineOne" >Return</span>
                         <span className="header__optionLineTwo">& Orders</span>
                     </div>
                 </Link>
@@ -43,6 +44,16 @@ function Header() {
                         <span className="header__optionLineOne" >Your</span>
                         <span className="header__optionLineTwo">Prime</span>
                     </div>
+                </Link>
+                {/*4th link*/}
+                <Link to="/checkout" className="header__checkout">
+                    <div className="header__optionBasket">
+                        {/*Shopping basket icon*/}
+                        <ShoppingBasketIcon/>
+                        <span className= "cant_Shopping">0</span>
+                        {/*Number of Products*/}
+                    </div>
+                    
                 </Link>
             </div>
 

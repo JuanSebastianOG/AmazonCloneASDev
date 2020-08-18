@@ -7,6 +7,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
+    max-width: 700px;
 
 }
 .product__img{
@@ -18,10 +19,13 @@
    
     margin-right: auto;
     margin-left: auto;
-    background-color: #fc9701;
-    border:none;
+    
+    background: linear-gradient(180deg, rgba(255,255,255,1) 2%, rgba(255,238,126,1) 48%);
+    
     padding-left:10px;
     padding-right: 10px;
     padding-top: 2px;
     padding-bottom: 2px;
+    border-radius: 4px;
+    border: none;
 }

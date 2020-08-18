@@ -39,10 +39,10 @@ function Header() {
                     </div>
                 </Link>
                 {/*3nd link*/}
-                <Link to="/" className="header__link">
+                <Link to="/AddProducts" className="header__link">
                     <div className="header__option">
-                        <span className="header__optionLineOne" >Your</span>
-                        <span className="header__optionLineTwo">Prime</span>
+                        <span className="header__optionLineOne" >Add</span>
+                        <span className="header__optionLineTwo">Product</span>
                     </div>
                 </Link>
                 {/*4th link*/}

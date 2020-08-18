@@ -2,9 +2,9 @@ import React from 'react';
 import '../css/Product.css';
 import Card from '@material-ui/core/Card';
 import Rating from '@material-ui/lab/Rating';
-import Button from '@material-ui/core/Button';
 
-function Product({ id, title, price, rating, img }) {
+
+function Product({ id, title, price, rating, imgUrl }) {
     console.log(id);
   
     return (
@@ -16,7 +16,7 @@ function Product({ id, title, price, rating, img }) {
                 value={rating}
                 readOnly
             /> 
-            <img className="product__img" src={img} alt="" />
+            <img className="product__img" src={imgUrl} alt="" />
             <button className="product_basketbtn">Add Basket</button>
         </Card>
     )
